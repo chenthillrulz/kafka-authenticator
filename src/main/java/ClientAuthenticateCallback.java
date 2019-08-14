@@ -11,7 +11,6 @@ import java.util.Map;
 public class ClientAuthenticateCallback implements AuthenticateCallbackHandler {
     private boolean isConfigured = false;
 
-
     public void configure(Map<String, ?> map, String saslMechanism, List<AppConfigurationEntry> jaasConfigEntries) {
         System.out.println("Inside client configure method");
 
